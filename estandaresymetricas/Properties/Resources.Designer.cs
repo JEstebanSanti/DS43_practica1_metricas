@@ -63,6 +63,16 @@ namespace estandaresymetricas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap suplier {
+            get {
+                object obj = ResourceManager.GetObject("suplier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_interface {
             get {
                 object obj = ResourceManager.GetObject("user-interface", resourceCulture);
